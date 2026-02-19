@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602
+CMAKE_SOURCE_DIR = /home/sachin/assignment-ros2-launch-files-aasritha602
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo
+CMAKE_BINARY_DIR = /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo
 
 # Utility rule file for ros2_launch_demo_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ros2_launch_demo_uninstall.dir/compiler_depend.make
 include CMakeFiles/ros2_launch_demo_uninstall.dir/progress.make
 
 CMakeFiles/ros2_launch_demo_uninstall:
-	/usr/bin/cmake -P /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ros2_launch_demo_uninstall: CMakeFiles/ros2_launch_demo_uninstall
 ros2_launch_demo_uninstall: CMakeFiles/ros2_launch_demo_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ros2_launch_demo_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_launch_demo_uninstall.dir/clean
 
 CMakeFiles/ros2_launch_demo_uninstall.dir/depend:
-	cd /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602 /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602 /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/CMakeFiles/ros2_launch_demo_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sachin/assignment-ros2-launch-files-aasritha602 /home/sachin/assignment-ros2-launch-files-aasritha602 /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/CMakeFiles/ros2_launch_demo_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ros2_launch_demo_uninstall.dir/depend
 

@@ -1,0 +1,62 @@
+[0.007s] Invoking command in '/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sachin/assignment-ros2-launch-files-aasritha602 -DCMAKE_INSTALL_PREFIX=/home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.081s] -- The CXX compiler identification is GNU 13.3.0
+[0.093s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.360s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.428s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.456s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.599s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.613s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.630s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.675s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.729s] -- Configuring done (0.7s)
+[0.735s] -- Generating done (0.0s)
+[0.738s] -- Build files have been written to: /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo
+[0.745s] Invoked command in '/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sachin/assignment-ros2-launch-files-aasritha602 -DCMAKE_INSTALL_PREFIX=/home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo
+[0.745s] Invoking command in '/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo -- -j24 -l24
+[0.782s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.783s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[2.984s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.086s] [ 75%] Built target talker
+[4.434s] [100%] [32m[1mLinking CXX executable listener[0m
+[4.563s] [100%] Built target listener
+[4.574s] Invoked command in '/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo -- -j24 -l24
+[4.581s] Invoking command in '/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo
+[4.587s] -- Install configuration: ""
+[4.587s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/lib/ros2_launch_demo/talker
+[4.587s] -- Set non-toolchain portion of runtime path of "/home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/lib/ros2_launch_demo/talker" to ""
+[4.588s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/lib/ros2_launch_demo/listener
+[4.589s] -- Set non-toolchain portion of runtime path of "/home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/lib/ros2_launch_demo/listener" to ""
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/launch
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/launch/pubsub.launch.py
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ament_index/resource_index/package_run_dependencies/ros2_launch_demo
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ament_index/resource_index/parent_prefix_path/ros2_launch_demo
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/environment/ament_prefix_path.sh
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/environment/ament_prefix_path.dsv
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/environment/path.sh
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/environment/path.dsv
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.bash
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.sh
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.zsh
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/local_setup.dsv
+[4.590s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/package.dsv
+[4.591s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ament_index/resource_index/packages/ros2_launch_demo
+[4.591s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/cmake/ros2_launch_demoConfig.cmake
+[4.591s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/cmake/ros2_launch_demoConfig-version.cmake
+[4.591s] -- Installing: /home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo/share/ros2_launch_demo/package.xml
+[4.592s] Invoked command in '/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo

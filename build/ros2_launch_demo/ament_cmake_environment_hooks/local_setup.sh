@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo"}
+: ${AMENT_CURRENT_PREFIX:="/home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

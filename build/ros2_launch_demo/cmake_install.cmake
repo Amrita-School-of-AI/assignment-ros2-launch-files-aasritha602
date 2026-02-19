@@ -1,8 +1,8 @@
-# Install script for directory: /home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602
+# Install script for directory: /home/sachin/assignment-ros2-launch-files-aasritha602
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo")
+  set(CMAKE_INSTALL_PREFIX "/home/sachin/assignment-ros2-launch-files-aasritha602/install/ros2_launch_demo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo/talker"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo" TYPE EXECUTABLE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/talker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo" TYPE EXECUTABLE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/talker")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo/talker" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo/talker")
     file(RPATH_CHANGE
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/CMakeFiles/talker.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/CMakeFiles/talker.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo/listener"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo" TYPE EXECUTABLE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/listener")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo" TYPE EXECUTABLE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/listener")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo/listener" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ros2_launch_demo/listener")
     file(RPATH_CHANGE
@@ -87,19 +87,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/CMakeFiles/listener.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/CMakeFiles/listener.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE DIRECTORY FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE DIRECTORY FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_launch_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_launch_demo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_launch_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_launch_demo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -107,7 +107,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo/environment" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo/environment" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,42 +115,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo/environment" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo/environment" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_index/share/ament_index/resource_index/packages/ros2_launch_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_index/share/ament_index/resource_index/packages/ros2_launch_demo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo/cmake" TYPE FILE FILES
-    "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_core/ros2_launch_demoConfig.cmake"
-    "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_core/ros2_launch_demoConfig-version.cmake"
+    "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_core/ros2_launch_demoConfig.cmake"
+    "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/ament_cmake_core/ros2_launch_demoConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_launch_demo" TYPE FILE FILES "/home/sachin/assignment-ros2-launch-files-aasritha602/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -161,5 +161,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sachin/ros2_ws/src/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sachin/assignment-ros2-launch-files-aasritha602/build/ros2_launch_demo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
